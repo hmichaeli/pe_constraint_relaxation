@@ -1,0 +1,106 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++/CUDA extensions
+*.so
+*.dylib
+*.dll
+
+# Packaging / build
+build/
+dist/
+downloads/
+wheels/
+sdist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.pytype/
+.pyre/
+dmypy.json
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and run artifacts
+logs/
+*.log
+log/
+results/
+runs/
+checkpoints/
+lightning_logs/
+wandb/
+
+# Datasets and outputs (optional; comment out if you want to track these)
+data/
+datasets/
+outputs/
+
+# ML model artifacts
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.onnx
+
+# PyTorch extension build cache
+.cache/torch_extensions/
+torch_extensions/
+
+# Local overrides
+*.local
+*.env
+.env.*
+
+# Python version manager
+.python-version
+
+# Smoke-plume data
+smoke_plume/PhiFlow/
